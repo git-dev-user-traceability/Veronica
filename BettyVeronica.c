@@ -2,9 +2,9 @@
 
 int p(int n){
     int factorial = 1;
-    do{
+    while (n > 1){
         factorial *= n--;    
-    }while (n > 1);  
+    }  
     return factorial; 
 }
 
